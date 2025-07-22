@@ -1,11 +1,16 @@
 @font-face {
     font-family: 'PlayfairDisplay';
-    src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    src: url('fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
 }
 body{
     margin:0;
     padding:0;
     font-family: 'PlayfairDisplay';
+    font-weight: 400;
     height: 100vh;
 }   
 *{
@@ -58,6 +63,7 @@ body{
 }
 .box1 p{
     color: #fff;
+    font-family: 'Roboto';
 }
 .box1 h1{
     font-size: 60px;
@@ -91,5 +97,31 @@ p{
 }
 .text{
     width: 460px;
-    font-family: arial;
 }
+.second-box .box{
+    background-color: #fff;
+}
+h2{
+    margin:0;
+}
+.second-box h2{
+    font-size: 48px;
+    color: #473C38;
+    width: 653px;
+}
+.second-box p{
+    font-size: 16px;
+    color:  #666666;
+    width: 654px;
+}
+.second-box a{
+    text-align: center;
+    color:  #F0F1F0;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 230px;
+    padding: 10px 50px;
+    background-color: #473C38;
+}
+
+
