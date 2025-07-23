@@ -149,9 +149,20 @@ h2{
     gap: 10px;
 }
 .form1{
-    padding: 40px;
+    width: 100%;
+    overflow:hidden;
+    border: 1px solid #473C38;
+    border-radius: 5px;
+    margin-bottom: 20px;;
+    width: 364px;
+    height: 442px;
 }
-
+.form1 img{
+    object-fit: cover;
+    margin:40px;
+    height: 160px;
+    width: 284px;
+   }
 
 
 
