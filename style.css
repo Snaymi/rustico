@@ -144,12 +144,8 @@ h2{
     display: flex;
     justify-content: center;
     gap: 10px;
-    height: 640px;
 }
 .form1{
-    border: 1px solid #473C38;
-    border-radius: 5px;
-    margin-bottom: 20px;;
     width: 364px;
     display: flex;
     flex-direction: column;
@@ -197,15 +193,13 @@ h2{
     width: 284px;
     overflow: hidden;
    }
-   .coment{
-    margin: 50px 0;
-   }
    .coment-content{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
+    margin: 100px 0 50px 0;
    }
    .text-coment{
     width: 1140px;
@@ -225,6 +219,19 @@ h2{
     align-items: center;
     justify-content: space-around;
     color: #F0F1F0;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 24px;
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.social img{
+    width: 30px;
 }
 
 
