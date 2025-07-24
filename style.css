@@ -9,7 +9,6 @@ body{
     padding:0;
     font-family: 'Playfair Display';
     font-weight: 400;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;;
@@ -145,9 +144,9 @@ h2{
     display: flex;
     justify-content: center;
     gap: 10px;
+    height: 640px;
 }
 .form1{
-    overflow:hidden;
     border: 1px solid #473C38;
     border-radius: 5px;
     margin-bottom: 20px;;
@@ -158,12 +157,9 @@ h2{
     text-align:start;
     padding: 40px;
     font-family: 'Roboto';
+    height: 442px;
 }
-.form1 img{
-    object-fit: cover;
-    height: 160px;
-    width: 284px;
-   }
+
    .form1 h3{
     margin: 0;
     color: #473C38;
@@ -180,6 +176,58 @@ h2{
    .form1 .btn{
     width: 287px;
    }
+   .form-img{
+    display:flex;
+    align-items: end;
+    height: 160px;
+    width: 284px;
+    overflow: hidden;
+   }
+    .form-img-home{
+    display:flex;
+    align-items: start;
+    height: 160px;
+    width: 284px;
+    overflow: hidden;
+   }
+   .form-img-balcao{
+    display:flex;
+    align-items: center;
+    height: 160px;
+    width: 284px;
+    overflow: hidden;
+   }
+   .coment{
+    margin: 50px 0;
+   }
+   .coment-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+   }
+   .text-coment{
+    width: 1140px;
+    font-size: 40px;
+    text-align: center;
+    color: #473C38;
+   }
+   .name{
+    color: #666666;
+    font-family: "Roboto";
+   }
+.footer{
+    background-color: #473C38;
+    width: 1350px;
+    display: flex;
+    height: 188px;
+    align-items: center;
+    justify-content: space-around;
+    color: #F0F1F0;
+}
+
+
 
 
 
