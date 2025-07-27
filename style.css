@@ -180,11 +180,14 @@ h2{
     overflow: hidden;
    }
     .form-img-home{
-    display:flex;
-    align-items: start;
     height: 160px;
     width: 284px;
-    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .img2{
+    background-image: url(img/home_office_rustico.webp);
+    background-position: 0 -55px
    }
    .form-img-balcao{
     display:flex;
