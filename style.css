@@ -1,3 +1,8 @@
+:root{
+    --primary-color: #473C38;
+    --secondary-color: #C2B19C;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap');
 
 @font-face{
@@ -62,7 +67,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #473C38;
+    background-color:  var(--primary-color);
     width: 100%;
     height: 550px;
 }
@@ -85,12 +90,12 @@ body{
 }
 .bright-btn{
     text-align: center;
-    color: #473C38;
+    color: var(--primary-color);
     text-decoration: none;
     border-radius: 5px;
     width: 230px;
     padding: 10px 50px;
-    background-color: #C2B19C;
+    background-color: var(--secondary-color);
 }
 h1{
     margin: 0;
@@ -121,12 +126,12 @@ h2{
 }
 .btn{
     text-align: center;
-    color:  #F0F1F0;
+    color:  #fff;
     text-decoration: none;
     border-radius: 5px;
     width: 230px;
     padding: 10px 50px;
-    background-color: #473C38;
+    background-color: var(--primary-color);
 }
 .third-box{
     width: 1350px;
@@ -215,7 +220,7 @@ h2{
     font-family: "Roboto";
    }
 .footer{
-    background-color: #473C38;
+    background-color:  var(--primary-color);
     width: 100%;
     display: flex;
     height: 188px;
